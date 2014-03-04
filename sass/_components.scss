@@ -30,31 +30,6 @@ dd {margin-left: 0;}
 // :-ms-input-placeholder  { color: $spectafy-blue; }
 // ::-webkit-input-placeholder { color: $spectafy-blue; }
 
-//text
-.leftalign {
-  text-align:left !important;
-}
-//forms
-.form-control {
-  border-radius:0px;
-  border:1px solid $borders;
-  box-shadow:none;
-  font-family:$primary-sans;
-}
-// select {
-//   -webkit-appearance:none;
-// }
-input, textarea {
-  -webkit-appearance: none;
-}
-label {
-  color:$primary-font;
-  color:$spectafy-blue;
-  font-family:$primary-sans;
-  font-weight:300;
-  font-size:18px;
-}
-
 // btns
 .btn-primary {
     background-color: $spectafy-blue;
