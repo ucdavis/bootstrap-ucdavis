@@ -3,3 +3,87 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+body {
+  background: url(../images/geometry.png) repeat fixed;
+  padding: 40px 0 20px; }
+
+.swatch {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: #ccc;
+  overflow: hidden;
+  clear: both; }
+
+dl {
+  display: block;
+  clear: both;
+  margin-bottom: 1em; }
+
+dt, dd {
+  float: left;
+  padding: 5px; }
+
+dt {
+  font-weight: bold;
+  font-size: .9em;
+  width: 80px;
+  text-align: right; }
+
+dd {
+  margin-left: 0; }
+
+.ucdavis-blue {
+  background: #002855; }
+
+.ucdavis-gold {
+  background: #c99700; }
+
+.unitrans-red {
+  background: #ba0c2f; }
+
+.western-redbud {
+  background: #c6007e; }
+
+.california-poppy {
+  background: #ed8800; }
+
+.golden-lupine {
+  background: #ffcd00; }
+
+.sunny-grass {
+  background: #78be20; }
+
+.sky-blue {
+  background: #00b5e2; }
+
+.recpool-blue {
+  background: #008eaa; }
+
+.wine-grape {
+  background: #642667; }
+
+.mu-brick {
+  background: #c26e60; }
+
+.harthall-stucco {
+  background: #e6a65d; }
+
+.sage-green {
+  background: #9caf88; }
+
+.evergreen {
+  background: #00573f; }
+
+.wintersky-gray {
+  background: #5b7f95; }
+
+.cenwalk-gray {
+  background: #b1b3b3; }
+
+.cork-oak {
+  background: #aca39a; }
+
+.shingle-brown {
+  background: #4f2c1d; }
