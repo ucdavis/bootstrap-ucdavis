@@ -1,0 +1,179 @@
+// Responsive
+// Adjustments to type sizes, grids, and images.
+img {
+	max-width:100%;
+}
+
+// navigation
+@media all and (max-width: 767px) {
+	.navbar {
+		.navbar-brand {
+			margin-top:10px;
+		}
+	}
+	.collapse {
+		display:inline-block;
+		width:50%;
+		float:right;
+		margin-top:0px;
+		li {
+			display:inline-block;
+		}
+	}
+	.navbar-header {
+		width:40%;
+		display:inline-block;
+	}
+}
+@media all and(max-width: 570px) {
+	.collapse {
+		display:none;
+	}
+	.navbar-header {
+		text-align:center;
+		width:100%;
+	}
+	.navbar-fixed-top, .navbar-fixed-bottom {
+		position:inherit;
+	}
+}
+
+// jumbotron 
+@media all and (max-width: 1064px) {
+	.jumbotron .jumbotron_contents .calltoaction {
+		width:75%;
+		margin-left:12.5%;
+		margin-right:12.5%;
+	}
+}
+@media all and (max-width: 560px) {
+	.jumbotron {
+		background-image:none;
+		background-color:$secondary-bg;
+		border-bottom:1px solid $borders;
+		.jumbotron_contents {
+			width:100%;
+			padding-bottom:0px;
+			padding-top:30px;
+			.calltoaction {
+				width:100%;
+				margin-right:0;
+				margin-left:0;
+			}
+		}
+	}
+
+}
+// values 
+@media all and (max-width: 901px) {
+	.valuepoint {
+		.valuepoint_content {
+			.value {
+				width:26%;
+				margin-right:9%;
+			}
+			.lastvalue {
+				margin-right:0px;
+			}
+		}
+	}
+}
+@media all and (max-width: 700px) {
+	.valuepoint {
+		padding-top:0px;
+		padding-bottom:0px;
+		.valuepoint_content {
+			.value {
+				width:80%;
+				margin-right:0;
+				margin-bottom:50px;
+			}
+		}
+	}
+}
+
+//featuretwo
+@media all and (max-width: 666px) {
+	.featuretwo {
+		display:none;
+	}
+}
+// examples  
+@media all and (max-width: 935px) {
+	.examples {
+		.examples_content {
+			.exampleset {
+				width:22%;
+				margin-right:5%;
+			}
+			h3 {
+				font-size:20px;
+			}
+		}
+	}
+}
+@media all and (max-width: 890px) {
+	.examples {
+		.examples_content {
+			.exampleset {
+				width:45%;
+				margin-right:0px;
+			}
+			h1 {
+				font-size:30px;
+			}
+		}
+	}
+}
+@media all and (max-width: 666px) {
+	.examples {
+		.examples_content {
+			.exampleset {
+				width:80%;
+				margin-right:0px;
+			}
+		}
+	}
+}
+//signoff
+@media all and (max-width: 1040px) {
+	.signoff {
+		.signoff_content {
+			width:80%
+		}
+	}
+}
+//footer
+@media all and (max-width: 873px) {
+	footer {
+		.footer_contents {
+			.foot {
+				width:32%;
+			}
+		}
+	}
+}
+//app
+@media all and (max-width: 540px){
+	.apporder {
+		.apporder_contents {
+			.app_content_main {
+				width:100%;
+			}
+			.app_content_aside {
+				width:100%;
+			}
+		}
+	}
+}
+// retina images
+@media
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-moz-min-device-pixel-ratio: 1.5),
+screen and (min-device-pixel-ratio: 1.5) {
+	.navbar .navbar-brand {
+		background-image:url(/media/logosolo@2x.png);
+		background-size:75%;
+		margin-top:18px;
+	}
+}

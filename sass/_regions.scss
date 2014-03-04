@@ -1,0 +1,91 @@
+// Regions
+// Page regions, named after their class and role names.
+// i.e. Banner, navigation, etc.
+
+// If you want more separation, you can set up an include per region, i.e.
+// @include 'region/banner';		// and then add region/_banner.scss
+
+
+// Forms
+.jumbotron.featuretron {
+	height:300px;
+}
+.styleguide {
+	@include inner-content;
+	text-align:left;
+}
+
+// app view 
+.jumbotron.apptron {
+	height:auto;
+	background-color:$spectafy-l-blue;
+	background-attachment: fixed;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+	background-image:url(/media/bg_tan_grid.png);
+	border-bottom:1px solid $borders;
+	padding-top:60px;
+	padding-bottom:60px;
+	.apptron_contents {
+		@include inner-content;
+		height:100%;
+		h2 {
+			vertical-align:middle;
+			text-align:center;
+			line-height:40px;
+			margin-top:0px;
+			margin-bottom:0px;
+		}
+	}
+}
+.onecolapp {
+	margin-top:-1px;
+	.onecolapp_contents{
+		@include inner-content;
+		border:1px solid $borders;
+		.form-group {
+			margin-bottom:30px;
+		}
+		.apptitle {
+			padding:5px 20px 13px 20px;
+			border-bottom: 1px solid $borders;
+			h3 {
+				color:$spectafy-blue
+			}
+		}
+		.appcontainer {
+			padding:25px 20px 20px 20px;
+			background-color:$secondary-bg;
+			p {
+				color:$tertiary-font;
+				font-size:13px;
+			}
+		}
+	}
+}
+.apporder {
+	.apporder_contents{
+		@include inner-content;
+		.app_content_main {
+			width:62.5%;
+			display:inline-block;
+			vertical-align:top;
+		}
+		.app_content_aside {
+			width:37.1%;
+			display:inline-block;
+			vertical-align:top;
+			border:1px solid $borders;
+			.aside_content {
+				padding:5px 15px 20px 15px;
+				h3 {
+					margin-top:10px;
+				}
+			}
+		}
+	}
+}

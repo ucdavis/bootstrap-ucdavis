@@ -1,0 +1,98 @@
+// Components
+// Modular components and their states. 
+// These pieces should be able to be used anywhere. Things like: icons, buttons, messages, etc.
+
+// Swatches
+
+.swatch {display: block; width: 80px; height: 80px; background: #ccc; overflow: hidden; clear:both;}
+dl {display: block; clear: both; margin-bottom: 100px;}
+dt, dd {float: left; padding: 5px;}
+dt {font-weight: bold; font-size: .9em; width: 80px; text-align: right;}
+dd {margin-left: 0;}
+
+.spectafy-blue {background: $spectafy-blue;}
+.spectafy-green {background: $spectafy-green;}
+.spectafy-red {background: $spectafy-red;}
+.spectafy-yellow {background: $spectafy-yellow;}
+
+.primary-font {background: $primary-font;}
+.secondary-font {background: $secondary-font;}
+.discreet-font {background: $discreet-font;}
+
+
+
+// Link styles
+
+
+// 	first sign up
+// :-moz-placeholder  { color: $secondary-blue; }
+// ::-moz-placeholder  { color: $secondary-blue; }
+// :-ms-input-placeholder  { color: $spectafy-blue; }
+// ::-webkit-input-placeholder { color: $spectafy-blue; }
+
+//text
+.leftalign {
+  text-align:left !important;
+}
+//forms
+.form-control {
+  border-radius:0px;
+  border:1px solid $borders;
+  box-shadow:none;
+  font-family:$primary-sans;
+}
+// select {
+//   -webkit-appearance:none;
+// }
+input, textarea {
+  -webkit-appearance: none;
+}
+label {
+  color:$primary-font;
+  color:$spectafy-blue;
+  font-family:$primary-sans;
+  font-weight:300;
+  font-size:18px;
+}
+
+// btns
+.btn-primary {
+    background-color: $spectafy-blue;
+    border:none;
+    color: #FFFFFF;
+    @include transformers
+}
+.btn-primary:hover {
+  background-color:$spectafy-yellow;
+}
+.btn-success {
+    background-color: $spectafy-green;
+    border:none;
+    color: #FFFFFF;
+    @include transformers
+}
+.btn-success:hover {
+    background-color: $spectafy-l-blue;
+}
+.btn-info {
+    background-color: $spectafy-l-blue;
+    border:none;
+    color: #FFFFFF;
+}
+.btn-warning {
+    background-color: $spectafy-yellow;
+    border:none;
+    color: #FFFFFF;
+}
+.btn-danger {
+    background-color: $spectafy-red;
+    border:none;
+    color: #FFFFFF;
+}
+.btn-app {
+  font-size:18px;
+  padding: 8px 15px 8px 15px;
+  }
+.btn-lg {
+  font-size:22px;
+}  

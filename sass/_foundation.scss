@@ -1,0 +1,297 @@
+
+// Foundation
+// Styles for setting up the structure of the entire website
+
+// Normalize gets pulled in Bootstrap
+// @import 'normalize';
+
+// Border-box-sizing
+@import 'border-box-sizing';
+
+.navbar {
+	height:auto;
+	padding-top: 10px;
+	padding-bottom: 18px;
+	background-color: #fff;
+	border-bottom:1px solid $borders;
+	margin-bottom:0px;
+	.navbar_contents {
+		@include inner-content;
+	}
+	.navbar-brand {
+		padding-top:6px;
+		background-image:url(/media/logosolo.png);
+		background-repeat:no-repeat;
+		padding-right:200px;
+		padding-bottom:40px;
+		margin-top:2px;
+	}
+	.navbar-nav {
+		float:right;
+		padding-top:6px;
+		li {
+			font-size:16px;
+			font-family:$primary-sans;
+			a {
+				color:$tertiary-font;
+				padding:10px 0px 3px 0px;
+				margin:0px 8px 0px 8px;
+			}
+			a:hover {
+				background-color:#fff;
+				color:$spectafy-blue;
+			}
+			a.btn {
+				color:#fff;
+				font-size:15px;
+				padding:8px 15px;
+				margin-left:10px;
+				margin-top:3px;
+				@include transformers
+			}
+			a.btn:hover {
+				color:#fff;
+				font-size:15px;
+				padding:8px 15px;
+				margin-left:10px;
+				background-color:$spectafy-l-blue;
+			}
+		}
+	}
+}
+.navbar-collapse {
+	margin-top: 10px;
+
+}
+.navbar-toggle .icon-bar {
+	background-color:$spectafy-blue;
+}
+.jumbotron {
+	max-width:1900px;
+	width:100%;
+	height:auto;
+	background-image:url(/media/header_background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom:0px;
+	.jumbotron_contents {
+		@include inner-content;
+		text-align:center;
+		padding-top:230px;
+		padding-bottom:200px;
+		.calltoaction {
+			text-align:center;
+			background-color:transparentize(#000, .35);
+			padding:20px 20px 10px 20px;
+			width:65%;
+			margin-left:17.5%;
+			margin-right:17.5%;
+			p {
+				color:#fff;
+				font-size:16px;
+				font-family:$primary-sans;
+				color:#fff;
+			}
+			h1 {
+				color:#fff;
+				font-family:$primary-sans;
+				font-weight:400;
+				font-size:40px;
+				text-shadow:rgba(0, 0, 0, 0.2) 2px 0px 3px;
+				line-height:55px;
+				margin-bottom:5px;
+			}
+			h2 {
+				color:#fff;
+				font-family:$primary-sans;
+				font-weight:300;
+				font-size:24px;
+				margin-bottom:30px;
+				margin-top:15px;
+			}
+			i {
+				margin-left:10px;
+			}
+		}
+	}
+}
+.subtitle {
+	margin-top:60px;
+	margin-bottom:40px;
+	text-align:center;
+	.featurewords {
+		@include inner-content;
+		padding-bottom:15px;
+		padding-top:5px;
+	}
+}
+.valuepoint {
+	padding-top:75px;
+	padding-bottom:75px;
+	.valuepoint_content{
+		@include inner-content;
+		text-align:center;
+		clear:both;	
+		.value {
+			display:inline-block;
+			width:33%;
+			vertical-align:top;
+		}
+	}
+}
+.colordivider {
+	width:100%;
+	background-image:url(/media/colordivider.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height:4px;
+	background-size:100% 100%;
+	margin-top:100px;
+}
+.featuretwo {
+	padding-top:100px;
+	padding-bottom:100px;
+	height:auto;
+	clear:both;
+	background-color:#fff;
+	border-bottom:1px solid $borders;
+	margin-bottom:40px;
+	background-image:url(/media/usecase_background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	.featuretwo_content {
+		@include inner-content;
+		text-align:center;
+	}
+	h2 {
+		color:#fff;
+		line-height:60px;
+		font-weight:300;
+		font-size:40px;
+	}
+}
+.examples {
+	.examples_content{
+		@include inner-content;
+		text-align:center;
+		padding-top:20px;
+		.exampleicon {
+			background-image: url("/media/examples-six.png");
+		    height: 69px;
+		    image-rendering: optimizequality;
+		    margin-bottom: 0;
+		    margin-left: auto;
+		    margin-right: auto;
+		    margin-top: 0;
+		    width: 80px;
+		}
+		.exampleset{
+			display:inline-block;
+			width:33%;
+			vertical-align:top;
+			margin-top:75px;
+			h3 {
+				line-height:33px;
+			}
+		}
+		.lastexampleset {
+			margin-right:0px;
+		}
+		h1 {
+			color:$spectafy-l-blue;
+			font-weight:300;
+			margin-top:30px;
+		}
+		h3 {
+			font-size:22px;
+		}
+		.bizint {
+			background-position:0 -80px;
+		}
+		.actplan {
+			background-position:0 -160px;
+		}
+		.retail {
+			background-position:0 -240px;
+		}
+		.strat {
+			background-position:0 -320px;
+		}
+		.econ {
+			background-position:0 -400px;
+		}
+		h3 {
+			font-weight:300;
+		}
+	}
+}
+.signoff {
+	background-color:$secondary-bg;
+	padding-bottom:50px;
+	padding-top:25px;
+	border-top:1px solid $borders;
+	margin-top:90px;
+	.signoff_content {
+		@include inner-content;
+		text-align:center;
+		width:60%;
+		margin-top:30px;
+		h2 {
+			line-height:40px;
+		}
+		small {
+			line-height:25px;
+		}
+		a.btn {
+			font-size:18px;
+			margin-left:10px;
+		}
+	}
+}
+
+footer {
+	border-top:1px solid $borders;
+	padding:17px 0px 17px 0px;
+	.footer_contents {
+		@include inner-content;
+		font-size:14px;
+		.foot{
+		display:inline-block;
+		width:33%;
+		vertical-align:top;
+		}
+		a {
+			color:$primary-font;
+			padding:0px 0px 0px 5px;
+		}
+		a:hover {
+			color:$primary-color;
+			text-decoration:none;
+		}
+		.foot.left {
+			padding-top:8px;
+		}
+		.foot.center {
+			background-image:url(/media/footlogo.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			padding-top:10px;
+			padding-bottom:20px;
+		}
+		.foot.right {
+			text-align:right;
+			padding-top:8px;
+			font-size:16px;
+		}
+	}
+}
+
