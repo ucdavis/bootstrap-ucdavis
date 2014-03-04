@@ -6,8 +6,10 @@
 
 
 // Typography
-	$primary-sans:			'Open Sans', Arial, sans-serif;
-	$primary-serif:			'Noto Serif', Georgia, serif;
+	$futura:			"futura-pt", Futura Std, Futura, Arial, sans-serif;
+	$sans-serif:		Helvetica Neue, Helvetica Std, Helvetica, Univers, Arial, sans-serif;
+	$serif:				Georgia, Berkeley, serif;
+	$monospace:			Monaco, "Courier New", Courier, monospace;
 
 	// [Compass] Vertical rhythm set up
 	// Change these values to whatever you want for your proj
@@ -17,30 +19,17 @@
 	// $relative-font-sizing:			true;
 
 // Colors
-	// The impel standard colors
-	$primary-color:		#237ecc; // blue accent
-	$secondary-color:	#333333; // gray for main fonts
-	
-	$spectafy-blue:		#237ecc;
-	$spectafy-l-blue:	#5099d6;
+	// The UC Davis standard colors
 
-	$spectafy-red:		#d24d26;
-	$spectafy-yellow:	#f7b341;
+	$primary-color:		#002855; // h1,h2,h3,h4 banner colors
+	$secondary-color:	#BB9207; // accent color, a hovers, underlines
+	$dark-gray:			#333433; // p,li color in main content
+	$middle-gray: 		#515151; // p,li color in portlet/sidebar
+	$light-gray:		#9b9b9b; // summary, discreet
 
-	$spectafy-green:	#7ccc20;	
-	$spectafy-l-green:	#afdf79;
-	$spectafy-d-green:	#47A447; // success hovers
-
-
-	$primary-font:		#434343; // p, titles
-	$secondary-font:	#aaaaaa; // copyright
-	$tertiary-font:		#717272; // navigation
-	$discreet-font:		#b7b7b7; // footer
-	
-	$borders:			#e6e6e6; // borders
-	$secondary-bg:		#f5f5f5; // highlighted gray background
-
-	
+	$background-color:	#ebebeb; // background
+	$boxcolor:			#ffffff; //	content boxs
+	$borders:			#dddddd; // border color
 
 
 
