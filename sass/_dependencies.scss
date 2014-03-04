@@ -46,17 +46,9 @@
 
 
 
-@mixin inner-content {
-	max-width:1000px;
-	width:90%;
-	margin:0 auto;
-}
 @mixin transformers {
 	transition-delay: 0s;
     transition-duration: 0.25s;
     transition-property: all;
     transition-timing-function: ease;
 }
-// font-family: "open-sans",sans-serif;
-// font-style: normal;
-// font-weight: 400;
