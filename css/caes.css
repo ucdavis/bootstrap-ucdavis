@@ -10,6 +10,16 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default, .navbar-inverse {
   background-image: none; }
 
+.navbar-inverse {
+  background-color: #002855;
+  color: #fff; }
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-image: none; }
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #001c3b; }
+
 body {
   background: url(../images/geometry.png) repeat fixed;
   padding: 40px 0 20px; }
