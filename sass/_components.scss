@@ -2,6 +2,12 @@
 // Modular components and their states. 
 // These pieces should be able to be used anywhere. Things like: icons, buttons, messages, etc.
 
+// navigation
+
+.navbar-default, .navbar-inverse {
+  background-image:none;
+}
+
 // Swatches
 body {background: url(../images/geometry.png) repeat fixed; padding: 40px 0 20px;}
 .swatch {display: block; width: 80px; height: 80px; background: #ccc; overflow: hidden; clear:both;}
