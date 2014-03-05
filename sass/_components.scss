@@ -32,14 +32,12 @@ dd {margin-left: 0;}
   .shingle-brown {background: $shingle-brown;}
 
 
-// Link styles
+// panels 
 
+.panel {
+  border-radius:2.5px;
+}
 
-// 	first sign up
-// :-moz-placeholder  { color: $secondary-blue; }
-// ::-moz-placeholder  { color: $secondary-blue; }
-// :-ms-input-placeholder  { color: $spectafy-blue; }
-// ::-webkit-input-placeholder { color: $spectafy-blue; }
  // buttons
  .btn-primary {
   background-color:$ucdavis-blue;

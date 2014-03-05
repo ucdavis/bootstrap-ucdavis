@@ -91,6 +91,9 @@ dd {
 .shingle-brown {
   background: #4f2c1d; }
 
+.panel {
+  border-radius: 2.5px; }
+
 .btn-primary {
   background-color: #002855;
   background-image: none;
