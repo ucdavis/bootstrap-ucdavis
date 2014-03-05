@@ -4,6 +4,9 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.jumbotron {
+  margin-top: 50px; }
+
 h1, h2, h3, h4, h5, h6 {
   color: #002855; }
 
@@ -17,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-inverse .navbar-nav > .active > a {
   background-image: none; }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
   background-color: #001c3b; }
 
 body {
