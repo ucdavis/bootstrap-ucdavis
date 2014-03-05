@@ -66,3 +66,16 @@ dd {margin-left: 0;}
   border:1px solid $cenwalk-gray;
   border-radius:2.5px;
  }
+
+ .btn-success {
+  background-color:$sunny-grass;
+  background-image:none;
+  border:1px solid $sunny-grass;
+  border-radius:2.5px;
+ }
+ .btn-success:hover {
+  background-color:darken( $sunny-grass, 5% );
+  background-image:none;
+  border:1px solid darken( $sunny-grass, 5% );
+  border-radius:2.5px;
+ }
