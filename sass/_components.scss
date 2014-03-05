@@ -79,3 +79,42 @@ dd {margin-left: 0;}
   border:1px solid darken( $sunny-grass, 5% );
   border-radius:2.5px;
  }
+
+  .btn-info {
+  background-color:$sky-blue;
+  background-image:none;
+  border:1px solid $sky-blue;
+  border-radius:2.5px;
+ }
+ .btn-info:hover {
+  background-color:darken( $sky-blue, 5% );
+  background-image:none;
+  border:1px solid darken( $sky-blue, 5% );
+  border-radius:2.5px;
+ }
+
+  .btn-warning {
+  background-color:$golden-lupine;
+  background-image:none;
+  border:1px solid $golden-lupine;
+  border-radius:2.5px;
+ }
+ .btn-warning:hover {
+  background-color:darken( $golden-lupine, 5% );
+  background-image:none;
+  border:1px solid darken( $golden-lupine, 5% );
+  border-radius:2.5px;
+ }
+
+  .btn-danger {
+  background-color:$unitrans-red;
+  background-image:none;
+  border:1px solid $unitrans-red;
+  border-radius:2.5px;
+ }
+ .btn-danger:hover {
+  background-color:darken( $unitrans-red, 5% );
+  background-image:none;
+  border:1px solid darken( $unitrans-red, 5% );
+  border-radius:2.5px;
+ }

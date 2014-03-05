@@ -126,3 +126,39 @@ dd {
   background-image: none;
   border: 1px solid #6aa81c;
   border-radius: 2.5px; }
+
+.btn-info {
+  background-color: #00b5e2;
+  background-image: none;
+  border: 1px solid #00b5e2;
+  border-radius: 2.5px; }
+
+.btn-info:hover {
+  background-color: #00a1c9;
+  background-image: none;
+  border: 1px solid #00a1c9;
+  border-radius: 2.5px; }
+
+.btn-warning {
+  background-color: #ffcd00;
+  background-image: none;
+  border: 1px solid #ffcd00;
+  border-radius: 2.5px; }
+
+.btn-warning:hover {
+  background-color: #e6b900;
+  background-image: none;
+  border: 1px solid #e6b900;
+  border-radius: 2.5px; }
+
+.btn-danger {
+  background-color: #ba0c2f;
+  background-image: none;
+  border: 1px solid #ba0c2f;
+  border-radius: 2.5px; }
+
+.btn-danger:hover {
+  background-color: #a20a29;
+  background-image: none;
+  border: 1px solid #a20a29;
+  border-radius: 2.5px; }
