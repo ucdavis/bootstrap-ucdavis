@@ -11,8 +11,8 @@
 	$serif:				Georgia, Berkeley, serif;
 	$monospace:			Monaco, "Courier New", Courier, monospace;
 
-	$rembase: 10px;
-	$fontbase: 16;
+	$basesize: 16;
+	$px: 1 / $basesize + 0rem;
 	$line-height-base: 26;
 
 	// [Compass] Vertical rhythm set up

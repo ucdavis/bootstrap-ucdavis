@@ -1,13 +1,20 @@
 // baseline typography
-body {
-	font-size:1.6rem;
+html {
+	font-size:16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color:$ucdavis-blue;
 	font-family:$serif;
 }
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-top:1rem;
+	margin-bottom:2rem;
+}
 p {
 	font-family:$futura;
 	line-height:1.625;
+}
+h1, .h1 {
+	font-size:36*$px
 }
