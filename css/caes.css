@@ -8,7 +8,11 @@
   margin-top: 50px; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #002855; }
+  color: #002855;
+  font-family: Georgia, Berkeley, serif; }
+
+p {
+  font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif; }
 
 .navbar-default, .navbar-inverse {
   background-image: none; }
