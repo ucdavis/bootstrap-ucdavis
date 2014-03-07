@@ -19,8 +19,16 @@ body {
   border: 1px solid #dddddd;
   background-color: #fff; }
 
-.navbar-brand {
+.navbar-brand, .navbar-header {
   float: none; }
+
+.navbar-collapse {
+  display: inline-block;
+  width: 60%; }
+
+.navbar-header {
+  display: inline-block;
+  width: 40%; }
 
 html {
   font-size: 16px; }
