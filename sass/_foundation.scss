@@ -13,20 +13,23 @@ html {
 }
 body {
 	font-size:16px;
-	background-color:$background-color;
+	// background-color:$background-color;
 	font-family:$futura;
 }
 .container {
 	padding:1.6rem;
 }
+.navbar .container {
+	padding:0;
+}
 .jumbotron {
 	margin-top:100px;
 	border-radius:0px;
 }
-.theme-showcase {
-	border:1px solid $borders;
-	background-color:#fff;
-}
+// .theme-showcase {
+// 	border:0.1rem solid $borders;
+// 	background-color:#fff;
+// }
 // navigation
 .navbar-brand {
 	float:none;

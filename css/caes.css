@@ -9,19 +9,17 @@ html {
 
 body {
   font-size: 16px;
-  background-color: #ebebeb;
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif; }
 
 .container {
   padding: 1.6rem; }
 
+.navbar .container {
+  padding: 0; }
+
 .jumbotron {
   margin-top: 100px;
   border-radius: 0px; }
-
-.theme-showcase {
-  border: 1px solid #dddddd;
-  background-color: #fff; }
 
 .navbar-brand {
   float: none; }
@@ -151,6 +149,9 @@ dd {
 
 .panel {
   border-radius: 2.5px; }
+
+.list-group-item:first-child {
+  border-radius: 0px; }
 
 .btn-primary {
   background-color: #002855;

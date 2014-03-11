@@ -57,12 +57,14 @@ dd {margin-left: 0;}
   .shingle-brown {background: $shingle-brown;}
 
 
-// panels 
+// panels & list groups
 
 .panel {
   border-radius:2.5px;
 }
-
+.list-group-item:first-child {
+  border-radius:0px;
+}
  // buttons
  .btn-primary {
   background-color:$ucdavis-blue;
