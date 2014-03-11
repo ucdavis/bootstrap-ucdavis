@@ -63,6 +63,10 @@ dd {margin-left: 0;}
 .alert, .list-group-item:first-child, .list-group-item:last-child, .panel, .panel-title, .panel-heading, .well {
   border-radius:0px;
 }
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+  background-color:transparentize( $ucdavis-blue, .15 );
+  border:1px solid transparentize( $ucdavis-blue, .15 );
+}
  // buttons
  .btn-primary {
   background-color:$ucdavis-blue;

@@ -148,6 +148,10 @@ dd {
 .alert, .list-group-item:first-child, .list-group-item:last-child, .panel, .panel-title, .panel-heading, .well {
   border-radius: 0px; }
 
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+  background-color: rgba(0, 40, 85, 0.85);
+  border: 1px solid rgba(0, 40, 85, 0.85); }
+
 .btn-primary {
   background-color: #002855;
   background-image: none;
