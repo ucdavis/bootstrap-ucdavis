@@ -18,14 +18,15 @@ body {
 }
 .container {
 	padding:1.6rem;
+	.jumbotron {
+		border-bottom-left-radius:0px;
+		border-bottom-right-radius:0px;
+	}
 }
 .navbar .container {
 	padding:0;
 }
-.jumbotron {
-	margin-top:100px;
-	border-radius:0px;
-}
+
 // .theme-showcase {
 // 	border:0.1rem solid $borders;
 // 	background-color:#fff;
