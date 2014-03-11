@@ -12,6 +12,9 @@ body {
   background-color: #ebebeb;
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif; }
 
+.container {
+  padding: 1.6rem; }
+
 .jumbotron {
   margin-top: 100px;
   border-radius: 0px; }
