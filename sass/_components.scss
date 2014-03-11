@@ -59,10 +59,8 @@ dd {margin-left: 0;}
 
 // panels & list groups
 
-.panel {
-  border-radius:2.5px;
-}
-.list-group-item:first-child {
+
+.alert, .list-group-item:first-child, .list-group-item:last-child, .panel, .panel-title, .panel-heading, .well {
   border-radius:0px;
 }
  // buttons

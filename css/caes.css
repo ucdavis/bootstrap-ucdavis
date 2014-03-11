@@ -14,8 +14,7 @@ body {
 .container {
   padding: 1.6rem; }
   .container .jumbotron {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px; }
+    border-radius: 0px; }
 
 .navbar .container {
   padding: 0; }
@@ -146,10 +145,7 @@ dd {
 .shingle-brown {
   background: #4f2c1d; }
 
-.panel {
-  border-radius: 2.5px; }
-
-.list-group-item:first-child {
+.alert, .list-group-item:first-child, .list-group-item:last-child, .panel, .panel-title, .panel-heading, .well {
   border-radius: 0px; }
 
 .btn-primary {
