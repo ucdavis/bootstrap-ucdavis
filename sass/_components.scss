@@ -64,8 +64,15 @@ dd {margin-left: 0;}
   border-radius:0px;
 }
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
-  background-color:transparentize( $ucdavis-blue, .15 );
-  border:1px solid transparentize( $ucdavis-blue, .15 );
+  background-color:lighten( $ucdavis-blue, .15 );
+  border:1px solid lighten( $ucdavis-blue, .15 );
+}
+.panel-primary {
+  border:1px solid $ucdavis-blue;
+  .panel-heading {
+    background-color:$ucdavis-blue;
+    border:1px solid $ucdavis-blue;
+  }
 }
  // buttons
  .btn-primary {

@@ -149,8 +149,14 @@ dd {
   border-radius: 0px; }
 
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
-  background-color: rgba(0, 40, 85, 0.85);
-  border: 1px solid rgba(0, 40, 85, 0.85); }
+  background-color: #002856;
+  border: 1px solid #002856; }
+
+.panel-primary {
+  border: 1px solid #002855; }
+  .panel-primary .panel-heading {
+    background-color: #002855;
+    border: 1px solid #002855; }
 
 .btn-primary {
   background-color: #002855;
