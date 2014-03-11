@@ -23,14 +23,18 @@ body {
 	border:1px solid $borders;
 	background-color:#fff;
 }
-.navbar-brand, .navbar-header {
+// navigation
+.navbar-brand {
 	float:none;
 }
-.navbar-collapse {
-	display:inline-block;
-	width:60%;
+a.navbar-brand {
+	width:10%;
 }
-.navbar-header {
-	display:inline-block;
-	width:40%;
-}
+// .navbar-collapse {
+// 	display:inline-block;
+// 	width:60%;
+// }
+// .navbar-header {
+// 	display:inline-block;
+// 	width:40%;
+// }

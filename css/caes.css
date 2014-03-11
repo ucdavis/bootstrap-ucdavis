@@ -19,16 +19,11 @@ body {
   border: 1px solid #dddddd;
   background-color: #fff; }
 
-.navbar-brand, .navbar-header {
+.navbar-brand {
   float: none; }
 
-.navbar-collapse {
-  display: inline-block;
-  width: 60%; }
-
-.navbar-header {
-  display: inline-block;
-  width: 40%; }
+a.navbar-brand {
+  width: 10%; }
 
 html {
   font-size: 16px; }
