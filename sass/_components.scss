@@ -74,6 +74,14 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
     border:1px solid $ucdavis-blue;
   }
 }
+.panel-success {
+  border:1px solid $ucdavis-gold;
+  .panel-heading {
+    background-color:$ucdavis-gold;
+    border:1px solid $ucdavis-gold;
+    color:#fff;
+  }
+}
  // buttons
  .btn-primary {
   background-color:$ucdavis-blue;

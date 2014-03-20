@@ -168,6 +168,13 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
     background-color: #002855;
     border: 1px solid #002855; }
 
+.panel-success {
+  border: 1px solid #c99700; }
+  .panel-success .panel-heading {
+    background-color: #c99700;
+    border: 1px solid #c99700;
+    color: #fff; }
+
 .btn-primary {
   background-color: #002855;
   background-image: none;
