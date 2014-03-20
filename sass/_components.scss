@@ -157,3 +157,20 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   border:1px solid darken( $unitrans-red, 5% );
   border-radius:2.5px;
  }
+
+ // alerts
+ .alert-info {
+  background-color:transparentize( $ucdavis-blue, .8);
+  border:1px solid transparentize( $ucdavis-blue, .6);
+ }
+ .alert-success {
+  border:1px solid #b2d5a3;
+ }
+.alert-warning {
+  background-color:transparentize( $ucdavis-gold, .8);
+  border:1px solid transparentize( $ucdavis-gold, .6);
+ }
+ .alert-danger {
+  background-color:transparentize( $unitrans-red, .8);
+  border:1px solid transparentize( $unitrans-red, .6);
+ }

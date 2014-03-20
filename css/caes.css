@@ -243,3 +243,18 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   background-image: none;
   border: 1px solid #a20a29;
   border-radius: 2.5px; }
+
+.alert-info {
+  background-color: rgba(0, 40, 85, 0.2);
+  border: 1px solid rgba(0, 40, 85, 0.4); }
+
+.alert-success {
+  border: 1px solid #b2d5a3; }
+
+.alert-warning {
+  background-color: rgba(201, 151, 0, 0.2);
+  border: 1px solid rgba(201, 151, 0, 0.4); }
+
+.alert-danger {
+  background-color: rgba(186, 12, 47, 0.2);
+  border: 1px solid rgba(186, 12, 47, 0.4); }
