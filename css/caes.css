@@ -162,7 +162,8 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   background-color: #002855;
   background-image: none;
   border: 1px solid #002855;
-  border-radius: 2.5px; }
+  border-radius: 2.5px;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset; }
 
 .btn-primary:hover {
   background-color: #c99700;
@@ -174,7 +175,8 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   background-color: #fff;
   background-image: none;
   border: 1px solid #b1b3b3;
-  border-radius: 2.5px; }
+  border-radius: 2.5px;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset; }
 
 .btn-default:hover {
   background-color: #b1b3b3;
@@ -186,7 +188,8 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   background-color: #78be20;
   background-image: none;
   border: 1px solid #78be20;
-  border-radius: 2.5px; }
+  border-radius: 2.5px;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset; }
 
 .btn-success:hover {
   background-color: #6aa81c;
@@ -198,7 +201,8 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   background-color: #00b5e2;
   background-image: none;
   border: 1px solid #00b5e2;
-  border-radius: 2.5px; }
+  border-radius: 2.5px;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset; }
 
 .btn-info:hover {
   background-color: #00a1c9;

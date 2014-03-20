@@ -80,6 +80,7 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   background-image:none;
   border:1px solid $ucdavis-blue;
   border-radius:2.5px;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset;
  }
  .btn-primary:hover {
   background-color:$ucdavis-gold;
@@ -93,6 +94,8 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   background-image:none;
   border:1px solid $cenwalk-gray;
   border-radius:2.5px;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset;
+
  }
  .btn-default:hover {
   background-color:$cenwalk-gray;
@@ -106,6 +109,7 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   background-image:none;
   border:1px solid $sunny-grass;
   border-radius:2.5px;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset;
  }
  .btn-success:hover {
   background-color:darken( $sunny-grass, 5% );
@@ -119,6 +123,7 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   background-image:none;
   border:1px solid $sky-blue;
   border-radius:2.5px;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset;
  }
  .btn-info:hover {
   background-color:darken( $sky-blue, 5% );
