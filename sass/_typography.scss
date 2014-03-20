@@ -18,3 +18,13 @@ p {
 h1, .h1 {
 	font-size:36*$px
 }
+b, strong {
+	font-weight:800;
+}
+label {
+	font-weight:500;
+}
+legend {
+	font-family:$serif;
+	font-weight:600;
+}
