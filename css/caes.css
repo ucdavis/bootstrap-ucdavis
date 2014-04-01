@@ -4,11 +4,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-html {
-  font-size: 62.5%; }
-
 body {
-  font-size: 16px;
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif; }
 
 .container {
@@ -19,14 +15,39 @@ body {
 .navbar .container {
   padding: 0; }
 
+.navbar-inverse .navbar-toggle {
+  border: none;
+  margin-right: 4.5rem; }
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: #002855; }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #c99700; }
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  margin-left: 0px; }
+
 .navbar-brand {
   float: none; }
 
 a.navbar-brand {
   width: 10%; }
 
+.page-header {
+  border-bottom: 1px solid #c99700; }
+  .page-header h1 {
+    margin-bottom: .5rem; }
+
 html {
   font-size: 16px; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 16px;
+  font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #002855;
@@ -36,12 +57,23 @@ h1, .h1, h2, .h2, h3, .h3 {
   margin-top: 1rem;
   margin-bottom: 2rem; }
 
+h1 {
+  font-size: 3.6rem; }
+
+h2 {
+  font-size: 3.0rem; }
+
+h3 {
+  font-size: 2.4rem; }
+
+h4 {
+  font-size: 1.8rem; }
+
 p {
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
-  line-height: 1.625; }
-
-h1, .h1 {
-  font-size: 2.25rem; }
+  line-height: 1.625;
+  letter-spacing: .025rem;
+  font-size: 1.6rem; }
 
 b, strong, th {
   font-weight: 800; }
@@ -52,6 +84,9 @@ label {
 legend {
   font-family: Georgia, Berkeley, serif;
   font-weight: 600; }
+
+.jumbotron h1, .jumbotron .h1 {
+  font-size: 5rem; }
 
 img {
   max-width: 100%; }

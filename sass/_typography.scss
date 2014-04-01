@@ -1,8 +1,15 @@
 // baseline typography
+// baseline typography
 html {
 	font-size:16px;
 }
-
+html {
+	font-size:62.5%;
+}
+body {
+	font-size:16px;
+	font-family:$futura;
+}
 h1, h2, h3, h4, h5, h6 {
 	color:$ucdavis-blue;
 	font-family:$serif;
@@ -11,12 +18,23 @@ h1, .h1, h2, .h2, h3, .h3 {
 	margin-top:1rem;
 	margin-bottom:2rem;
 }
+h1 {
+	font-size:3.6rem;
+}
+h2 {
+	font-size:3.0rem;
+}
+h3 {
+	font-size:2.4rem;
+}
+h4 {
+	font-size:1.8rem;
+}
 p {
 	font-family:$futura;
 	line-height:1.625;
-}
-h1, .h1 {
-	font-size:36*$px
+	letter-spacing:.025rem;
+	font-size:1.6rem;
 }
 b, strong, th {
 	font-weight:800;
@@ -27,4 +45,7 @@ label {
 legend {
 	font-family:$serif;
 	font-weight:600;
+}
+.jumbotron h1, .jumbotron .h1 {
+	font-size:5rem;
 }

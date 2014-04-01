@@ -9,11 +9,9 @@
 @import 'border-box-sizing';
 
 html {
-	font-size:62.5%;
 }
 body {
-	font-size:16px;
-	// background-color:$background-color;
+	// font-size:16px;
 	font-family:$futura;
 }
 .container {
@@ -25,23 +23,32 @@ body {
 .navbar .container {
 	padding:0;
 }
-
-// .theme-showcase {
-// 	border:0.1rem solid $borders;
-// 	background-color:#fff;
-// }
-// navigation
+.navbar-inverse .navbar-toggle {
+	border:none;
+	margin-right:4.5rem;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color:$ucdavis-blue;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color:$ucdavis-gold;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+	margin-left:0px;
+}
 .navbar-brand {
 	float:none;
 }
 a.navbar-brand {
 	width:10%;
 }
-// .navbar-collapse {
-// 	display:inline-block;
-// 	width:60%;
-// }
-// .navbar-header {
-// 	display:inline-block;
-// 	width:40%;
-// }
+
+
+
+
+.page-header {
+	border-bottom:1px solid $ucdavis-gold;
+	h1 {
+		margin-bottom:.5rem;
+	}
+}
