@@ -30,7 +30,7 @@ body {
   border-top: solid 1px #ddd;
   margin-bottom: 1.5em;
   padding: 8rem 0px 2rem 0px;
-  background-image: url("../media/banner.png");
+  background-image: url("../media/banner.svg");
   background-position: 100% 50%;
   background-repeat: no-repeat; }
   .jumbotron .container {
