@@ -7,26 +7,26 @@ img {
 }
 // navigation
 
-// .navbar-default, .navbar-default {
-//   background-image:none;
-// }
-// .navbar-default {
-//   background-color:$ucdavis-blue;
-//   color:#fff;
-// }
-// .navbar-default .navbar-nav > .active > a {
-//   background-image:none;
+.navbar-default, .navbar-default {
+  background-image:none;
+}
+.navbar-default {
+  background-color:$ucdavis-blue;
+  color:#fff;
+}
+.navbar-default .navbar-nav > .active > a {
+  background-image:none;
 
-// }
-// .navbar-default .navbar-nav > li > a {
-//   color:#fff;
-// }
-// .navbar-default .navbar-nav > li > a:hover {
-//   color:$ucdavis-gold;
-// }
-// .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
-//   background-color:darken( $ucdavis-blue, 5% );
-// }
+}
+.navbar-default .navbar-nav > li > a {
+  color:#fff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color:$ucdavis-gold;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+  background-color:darken( $ucdavis-blue, 5% );
+}
 
 // Swatches
 .swatch {display: block; width: 80px; height: 80px; background: #ccc; overflow: hidden; clear:both;}
