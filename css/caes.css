@@ -20,7 +20,7 @@ body {
 .jumbotron {
   background-attachment: scroll;
   background-clip: border-box;
-  background-color: #00573f;
+  background-color: #5b7f95;
   background-image: none;
   background-origin: padding-box;
   background-position: 0 0;
@@ -302,7 +302,7 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   .navbar-default li {
     padding: 0px .5rem 0px .5rem; }
     .navbar-default li a {
-      padding: 1.5rem .5rem 1.5rem .5rem; }
+      padding: 1.5rem .5rem 1rem .5rem; }
   .navbar-default li.active a {
     border-bottom: solid 5px #c99700; }
 
