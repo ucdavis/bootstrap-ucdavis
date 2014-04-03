@@ -20,7 +20,7 @@ body {
 .jumbotron {
   background-attachment: scroll;
   background-clip: border-box;
-  background-color: rgba(215, 215, 215, 0.4);
+  background-color: #00573f;
   background-image: none;
   background-origin: padding-box;
   background-position: 0 0;
@@ -29,9 +29,13 @@ body {
   border-bottom: solid 1px #ddd;
   border-top: solid 1px #ddd;
   margin-bottom: 1.5em;
-  padding: 8rem 0px 2rem 0px; }
+  padding: 8rem 0px 2rem 0px;
+  background-image: url("../media/banner.svg");
+  background-position: 100% 50%;
+  background-repeat: no-repeat; }
   .jumbotron .container {
-    padding-top: 5rem; }
+    padding-top: 5rem;
+    color: #fff; }
 
 html {
   font-size: 16px; }
@@ -81,6 +85,9 @@ legend {
 
 .jumbotron h1, .jumbotron .h1 {
   font-size: 5rem; }
+
+a.prettyinpink {
+  color: #cc6699; }
 
 img {
   max-width: 100%; }
@@ -280,6 +287,9 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   background-color: rgba(186, 12, 47, 0.2);
   border: 1px solid rgba(186, 12, 47, 0.4); }
 
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0.95); }
+
 .navbar-default .navbar-brand {
   color: #002855;
   font-size: 2.4rem;
@@ -298,45 +308,6 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: rgba(255, 255, 255, 0.01); }
-
-.navbar-inverse {
-  background-color: #002855;
-  color: #fff;
-  border-bottom: 1px solid #000; }
-
-.navbar-inverse .navbar-brand {
-  color: #c99700; }
-
-.navbar-inverse .navbar-brand:hover {
-  color: #fff; }
-
-.navbar-inverse, .navbar-inverse {
-  background-image: none; }
-
-.navbar-inverse .navbar-toggle {
-  border: none;
-  margin-right: 4.5rem; }
-
-.navbar-inverse .navbar-nav > .active > a {
-  background-image: none; }
-
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background-color: #002855; }
-
-.navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #c99700; }
-
-.navbar-inverse .navbar-nav > li > a {
-  color: #fff; }
-
-.navbar-inverse .navbar-nav > li > a:hover {
-  color: #c99700; }
-
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #001c3b; }
-
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #c99700; }
 
 #service-message {
   background-color: rgba(201, 151, 0, 0.5);

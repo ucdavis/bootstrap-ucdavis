@@ -6,6 +6,9 @@
 // @include 'region/banner';		// and then add region/_banner.scss
 
 // default navigation
+.navbar-default{
+	background-color:rgba(255,255,255,.95);
+}
 .navbar-default .navbar-brand {
 	color:$ucdavis-blue;
 	font-size:2.4rem;
@@ -30,42 +33,3 @@
 	background-color:rgba(255,255,255,0.01);
 }
 // inverse navigation
-.navbar-inverse {
-  background-color:$ucdavis-blue;
-  color:#fff;
-  border-bottom:1px solid #000;
-}
-.navbar-inverse .navbar-brand {
-	color:$ucdavis-gold;
-}
-.navbar-inverse .navbar-brand:hover {
-	color:#fff;
-}
-.navbar-inverse, .navbar-inverse {
-  	background-image:none;
-}
-.navbar-inverse .navbar-toggle {
-	border:none;
-	margin-right:4.5rem;
-}
-.navbar-inverse .navbar-nav > .active > a {
-  background-image:none;
-}
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background-color:$ucdavis-blue;
-}
-.navbar-inverse .navbar-toggle .icon-bar {
-	background-color:$ucdavis-gold;
-}
-.navbar-inverse .navbar-nav > li > a {
-  color:#fff;
-}
-.navbar-inverse .navbar-nav > li > a:hover {
-  color:$ucdavis-gold;
-}
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
-  background-color:darken( $ucdavis-blue, 5% );
-}
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-	color:$ucdavis-gold;
-}
