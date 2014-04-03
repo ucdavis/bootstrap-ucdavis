@@ -12,51 +12,6 @@ body {
   .container .jumbotron {
     border-radius: 0px; }
 
-.navbar .container {
-  padding: 0; }
-
-.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-  margin-left: 0px; }
-
-.navbar-default {
-  background-color: #002855;
-  color: #fff;
-  border-bottom: 1px solid #000; }
-
-.navbar-default .navbar-brand {
-  color: #c99700; }
-
-.navbar-default .navbar-brand:hover {
-  color: #fff; }
-
-.navbar-default, .navbar-default {
-  background-image: none; }
-
-.navbar-default .navbar-toggle {
-  border: none;
-  margin-right: 4.5rem; }
-
-.navbar-default .navbar-nav > .active > a {
-  background-image: none; }
-
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #002855; }
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #c99700; }
-
-.navbar-default .navbar-nav > li > a {
-  color: #fff; }
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: #c99700; }
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #001c3b; }
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #c99700; }
-
 .page-header {
   border-bottom: 1px solid #c99700; }
   .page-header h1 {
@@ -234,77 +189,81 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   background-color: #002855;
   background-image: none;
   border: 1px solid #002855;
-  border-radius: 2.5px;
+  border-radius: 5px;
   box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset; }
 
 .btn-primary:hover {
   background-color: #c99700;
   background-image: none;
   border: 1px solid #c99700;
-  border-radius: 2.5px; }
+  border-radius: 5px; }
 
 .btn-default {
   background-color: #fff;
   background-image: none;
   border: 1px solid #b1b3b3;
-  border-radius: 2.5px;
+  border-radius: 5px;
   box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset; }
 
 .btn-default:hover {
   background-color: #b1b3b3;
   background-image: none;
   border: 1px solid #b1b3b3;
-  border-radius: 2.5px; }
+  border-radius: 5px; }
 
 .btn-success {
   background-color: #78be20;
   background-image: none;
   border: 1px solid #78be20;
-  border-radius: 2.5px;
+  border-radius: 5px;
   box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset; }
 
 .btn-success:hover {
   background-color: #6aa81c;
   background-image: none;
   border: 1px solid #6aa81c;
-  border-radius: 2.5px; }
+  border-radius: 5px; }
 
 .btn-info {
   background-color: #00b5e2;
   background-image: none;
   border: 1px solid #00b5e2;
-  border-radius: 2.5px;
+  border-radius: 5px;
   box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset; }
 
 .btn-info:hover {
   background-color: #00a1c9;
   background-image: none;
   border: 1px solid #00a1c9;
-  border-radius: 2.5px; }
+  border-radius: 5px; }
 
 .btn-warning {
-  background-color: #ffcd00;
+  background-color: #c99700;
   background-image: none;
-  border: 1px solid #ffcd00;
-  border-radius: 2.5px; }
+  border: 1px solid #c99700;
+  border-radius: 5px;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset; }
 
 .btn-warning:hover {
-  background-color: #e6b900;
+  background-color: #b08400;
   background-image: none;
-  border: 1px solid #e6b900;
-  border-radius: 2.5px; }
+  border: 1px solid #b08400;
+  border-radius: 5px;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset; }
 
 .btn-danger {
   background-color: #ba0c2f;
   background-image: none;
   border: 1px solid #ba0c2f;
-  border-radius: 2.5px; }
+  border-radius: 5px;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset; }
 
 .btn-danger:hover {
   background-color: #a20a29;
   background-image: none;
   border: 1px solid #a20a29;
-  border-radius: 2.5px; }
+  border-radius: 5px;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset; }
 
 .alert-info {
   background-color: rgba(0, 40, 85, 0.2);
