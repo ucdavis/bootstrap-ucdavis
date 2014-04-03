@@ -20,52 +20,6 @@ body {
 		border-radius:0px;
 	}
 }
-// .navbar .container {
-// 	padding:0;
-// }
-// .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-// 	margin-left:0px;
-// }
-// .navbar-default {
-//   background-color:$ucdavis-blue;
-//   color:#fff;
-//   border-bottom:1px solid #000;
-// }
-// .navbar-default .navbar-brand {
-// 	color:$ucdavis-gold;
-// }
-// .navbar-default .navbar-brand:hover {
-// 	color:#fff;
-// }
-// .navbar-default, .navbar-default {
-//   	background-image:none;
-// }
-// .navbar-default .navbar-toggle {
-// 	border:none;
-// 	margin-right:4.5rem;
-// }
-// .navbar-default .navbar-nav > .active > a {
-//   background-image:none;
-// }
-// .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-// 	background-color:$ucdavis-blue;
-// }
-// .navbar-default .navbar-toggle .icon-bar {
-// 	background-color:$ucdavis-gold;
-// }
-// .navbar-default .navbar-nav > li > a {
-//   color:#fff;
-// }
-// .navbar-default .navbar-nav > li > a:hover {
-//   color:$ucdavis-gold;
-// }
-// .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
-//   background-color:darken( $ucdavis-blue, 5% );
-// }
-// .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-// 	color:$ucdavis-gold;
-// }
-
 
 .page-header {
 	border-bottom:1px solid $ucdavis-gold;
@@ -84,10 +38,11 @@ body {
     background-position: 0 0;
     background-repeat: repeat;
     background-size: auto auto;
-    border-bottom-color: #DDDDDD;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    box-shadow: 0 1px 8px rgba(33, 33, 33, 0.1) inset;
+    border-bottom:solid 1px #ddd;
+    border-top:solid 1px #ddd;
     margin-bottom: 1.5em;
    	padding:8rem 0px 2rem 0px;
+   	.container {
+   		padding-top:5rem;
+   	}
 }
