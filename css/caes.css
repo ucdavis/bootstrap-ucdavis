@@ -304,3 +304,6 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 .alert-danger {
   background-color: rgba(186, 12, 47, 0.2);
   border: 1px solid rgba(186, 12, 47, 0.4); }
+
+#service-message {
+  background-color: rgba(201, 151, 0, 0.5); }
