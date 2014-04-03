@@ -73,3 +73,21 @@ body {
 		margin-bottom:.5rem;
 	}
 }
+
+// jumbotron 
+.jumbotron {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(215, 215, 215, 0.4);
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-color: #DDDDDD;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    box-shadow: 0 1px 8px rgba(33, 33, 33, 0.1) inset;
+    margin-bottom: 1.5em;
+   	padding:8rem 0px 2rem 0px;
+}
