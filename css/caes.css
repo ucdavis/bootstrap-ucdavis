@@ -15,12 +15,29 @@ body {
 .navbar .container {
   padding: 0; }
 
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  margin-left: 0px; }
+
 .navbar-default {
+  background-color: #002855;
+  color: #fff;
   border-bottom: 1px solid #000; }
+
+.navbar-default .navbar-brand {
+  color: #c99700; }
+
+.navbar-default .navbar-brand:hover {
+  color: #fff; }
+
+.navbar-default, .navbar-default {
+  background-image: none; }
 
 .navbar-default .navbar-toggle {
   border: none;
   margin-right: 4.5rem; }
+
+.navbar-default .navbar-nav > .active > a {
+  background-image: none; }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #002855; }
@@ -28,8 +45,17 @@ body {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #c99700; }
 
-.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-  margin-left: 0px; }
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #c99700; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #001c3b; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #c99700; }
 
 .page-header {
   border-bottom: 1px solid #c99700; }
@@ -87,25 +113,6 @@ legend {
 
 img {
   max-width: 100%; }
-
-.navbar-default, .navbar-default {
-  background-image: none; }
-
-.navbar-default {
-  background-color: #002855;
-  color: #fff; }
-
-.navbar-default .navbar-nav > .active > a {
-  background-image: none; }
-
-.navbar-default .navbar-nav > li > a {
-  color: #fff; }
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: #c99700; }
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #001c3b; }
 
 .swatch {
   display: block;
