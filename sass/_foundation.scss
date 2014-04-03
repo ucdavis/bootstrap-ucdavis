@@ -23,24 +23,18 @@ body {
 .navbar .container {
 	padding:0;
 }
-.navbar-inverse .navbar-toggle {
+.navbar-default .navbar-toggle {
 	border:none;
 	margin-right:4.5rem;
 }
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color:$ucdavis-blue;
 }
-.navbar-inverse .navbar-toggle .icon-bar {
+.navbar-default .navbar-toggle .icon-bar {
 	background-color:$ucdavis-gold;
 }
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
 	margin-left:0px;
-}
-.navbar-brand {
-	float:none;
-}
-a.navbar-brand {
-	width:10%;
 }
 
 
