@@ -13,14 +13,14 @@ body {
     border-radius: 0px; }
 
 .page-header {
-  border-bottom: 1px solid #c99700; }
+  border-bottom: 2px solid #5b7f95; }
   .page-header h1 {
     margin-bottom: .5rem; }
 
 .jumbotron {
   background-attachment: scroll;
   background-clip: border-box;
-  background-color: #5b7f95;
+  background-color: #002855;
   background-image: none;
   background-origin: padding-box;
   background-position: 0 0;
