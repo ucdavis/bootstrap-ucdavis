@@ -287,6 +287,10 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   background-color: rgba(186, 12, 47, 0.2);
   border: 1px solid rgba(186, 12, 47, 0.4); }
 
+ul.dropdown-menu {
+  padding-left: .5rem;
+  padding-right: .5rem; }
+
 .navbar-default {
   background-color: rgba(255, 255, 255, 0.95); }
 

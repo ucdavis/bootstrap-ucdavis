@@ -4,7 +4,10 @@
 
 // If you want more separation, you can set up an include per region, i.e.
 // @include 'region/banner';		// and then add region/_banner.scss
-
+ul.dropdown-menu {
+	padding-left:.5rem;
+	padding-right:.5rem;
+}
 // default navigation
 .navbar-default{
 	background-color:rgba(255,255,255,.95);
