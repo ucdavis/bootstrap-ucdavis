@@ -309,6 +309,29 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: rgba(255, 255, 255, 0.01); }
 
+.navbar-inverse {
+  background-color: rgba(0, 40, 85, 0.95);
+  border-bottom: 1px solid #002855; }
+
+.navbar-inverse .navbar-brand {
+  color: #c99700;
+  font-size: 2.4rem;
+  margin-right: 4rem; }
+  .navbar-inverse .navbar-brand:hover {
+    color: #fff; }
+
+.navbar-inverse {
+  font-size: 1.8rem; }
+  .navbar-inverse li {
+    padding: 0px .5rem 0px .5rem; }
+    .navbar-inverse li a {
+      padding: 1.5rem .5rem 1rem .5rem; }
+  .navbar-inverse li.active a {
+    border-bottom: solid 5px #c99700; }
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: rgba(255, 255, 255, 0.01); }
+
 #service-message {
   background-color: rgba(201, 151, 0, 0.5);
   background-image: none; }
