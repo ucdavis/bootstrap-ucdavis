@@ -339,3 +339,12 @@ ul.dropdown-menu {
 #service-message {
   background-color: rgba(201, 151, 0, 0.5);
   background-image: none; }
+
+.jumbotron {
+  padding-top: 1rem; }
+  .jumbotron p {
+    color: #fff; }
+
+.click-menu > a.col-lg-4 {
+  background-color: #fff;
+  border: none; }

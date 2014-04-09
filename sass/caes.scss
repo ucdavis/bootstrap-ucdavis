@@ -24,3 +24,13 @@
   background-color:transparentize($ucdavis-gold, 0.5);
   background-image:none;
 }
+.jumbotron {
+	padding-top:1rem;
+	p {
+		color:#fff;
+	}
+}
+.click-menu > a.col-lg-4 {
+	background-color:#fff;
+	border:none;
+}
