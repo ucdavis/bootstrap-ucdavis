@@ -349,9 +349,9 @@ ul.dropdown-menu {
   background-color: #fff;
   border: none; }
 
-ul.nav nav-pills pull-right li {
+ul.nav .nav-pills .pull-right li {
   padding: 0px .5rem 0px .5rem; }
-  ul.nav nav-pills pull-right li a {
+  ul.nav .nav-pills .pull-right li a {
     padding: 1.5rem .5rem 1rem .5rem; }
-ul.nav nav-pills pull-right li.active a {
+ul.nav .nav-pills .pull-right li.active a {
   border-bottom: solid 5px #c99700; }
