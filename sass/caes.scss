@@ -34,14 +34,7 @@
 	background-color:#fff;
 	border:none;
 }
-ul.nav .nav-pills .pull-right {
-	li {
-		padding:0px .5rem 0px .5rem;
-		a {
-			padding: 1.5rem .5rem 1rem .5rem;
-		}
-	}
-	li.active a {
-		border-bottom:solid 5px $ucdavis-gold;
-	}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	background-color:#000;
+	border-bottom: 5px solid $ucdavis-gold;
 }
