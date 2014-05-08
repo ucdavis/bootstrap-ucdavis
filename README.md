@@ -8,9 +8,6 @@ Best practices-
 
 -Implementation
 use bootstrap css, and then the caes.css AND then you can add your own below it so it overrides the caes.css styles
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/caes.css" rel="stylesheet">
-    < YOUR stylesheet here >
 
 -To mimic the jumbotron here, be sure to move jumbotron to be OUTSIDE of the container div. so container is INSIDE the jumbotron div.
 
