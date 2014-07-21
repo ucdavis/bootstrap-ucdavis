@@ -61,6 +61,10 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   }
 }
  // buttons
+ .btn {
+  @include transformers;
+ }
+ 
  .btn-primary {
   background-color:$ucdavis-blue;
   background-image:none;

@@ -1,8 +1,3 @@
-// Shared styles and dependencies
-// Globaly used variables, mixins, and functions
-
-
-// Metrics
 
 
 // Typography
@@ -10,9 +5,6 @@
 	$sans-serif:		Helvetica Neue, Helvetica Std, Helvetica, Univers, Arial, sans-serif;
 	$serif:				Georgia, Berkeley, serif;
 
-	$basesize: 16;
-	$px: 1 / $basesize + 0rem;
-	$line-height-base: 26;
 
 	// [Compass] Vertical rhythm set up
 	// Change these values to whatever you want for your proj
@@ -25,6 +17,7 @@
 	// The UC Davis standard colors
 	$ucdavis-blue: 		#002855;
 	$ucdavis-gold:		#c99700;
+
 
 	// Supplemental bright color palette for UC Davis
 	$unitrans-red: 		#ba0c2f;
